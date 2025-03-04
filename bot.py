@@ -54,7 +54,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
            
 def main() -> None:
     """Start the bot."""
-    application = Application.builder().token("8054074004:AAHwOUrZI9rLVM4FjMrY8rBcvOKYPCRJLZI").build()
+    application = Application.builder().token("######").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
